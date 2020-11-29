@@ -152,7 +152,7 @@ html {
 }
 #two {
     margin-left:130px;
-    margin-top:-50px;
+    margin-top:-240px;
    
 }
 <<<<<<< Updated upstream
@@ -224,10 +224,10 @@ html {
 }
 
 #image2 {
-      float: right;
+     
     border-radius: 2%;
        margin-top:-100px; 
-       margin-right: 160px;
+       margin-left: 860px;
 }
 .secondp {
     margin-top:-320px;
@@ -249,7 +249,8 @@ html {
 .container h2 {
     font-size: 30px;
     color: white;
-    margin-left:30px;
+   
+
     
 }
 
