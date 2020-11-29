@@ -245,6 +245,9 @@ html {
  /* -------------------------Famous person----------------------- */
 
  /* ---------------------Gallery---------------------------- */
+  .all-gallery{
+     background-color: #db4743 ;
+ }
  .light img{
     width: 100%;
      margin-left: -7px;
@@ -281,6 +284,8 @@ html {
  }
 
  /* -----------------------------------Buffet--------------------------- */
+
+
  .grid{
     height: 100vh;
     display: grid;
@@ -306,7 +311,7 @@ html {
 }
 
 .buffetText{
-    width: 100%;
+    width: 80%;
     margin-top: 20%;
     margin-left:5% ;
     grid-column-start: 2;
