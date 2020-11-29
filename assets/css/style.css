@@ -182,7 +182,7 @@ html {
     width: 100%;
     height: auto;
     background-color: #db4743;
-    margin-left: 60px;
+    
    justify-content: center;
 }
 
@@ -287,7 +287,8 @@ html {
 }
 .buffet{
     margin: 0;
-    background-color: #235E6F;
+    /* background-color: #235E6F; */
+    background-color: aqua;
 } 
 .buffetsection{
     text-align: center;
@@ -299,9 +300,9 @@ html {
     grid-column-end: 2;
 }
 
-aside{
-    width: 80%;
-    margin-top: 30%;
+.buffetText{
+    width: 100%;
+    margin-top: 20%;
     margin-left:5% ;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -314,11 +315,10 @@ aside{
 }
 
 
-
 .corner-button {
     background: transparent;
     border: 0.2rem solid currentColor;
-    padding: 1.1rem 2rem;
+    padding: 0.5rem 1rem;
     font-size: 1.1rem;
     position: relative;
     color: #CC231E;
@@ -355,7 +355,7 @@ aside{
 
   @media only screen and (max-width:868px){
 
-    asside{
+    .buffetText{
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
@@ -364,7 +364,7 @@ aside{
         margin-left: 10%;
         text-align: left;
     }
-    section{
+    .buffetsection{
         height: 100vh;
         margin-top: 7%;
         margin-left: 3%;
@@ -377,7 +377,7 @@ aside{
 
   @media only screen and (max-width:450px){
 
-    asside{
+    .buffetText{
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
@@ -386,7 +386,7 @@ aside{
         margin-left: 10%;
         text-align: left;
     }
-    section{
+    .buffetsection{
         height: 100vh;
         margin-top: 5%;
         margin-left: 3%;
