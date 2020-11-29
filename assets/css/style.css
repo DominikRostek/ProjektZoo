@@ -113,10 +113,9 @@ html {
     padding-left: 30px;
     padding-right: 30px;
 }
-
-p {
+/* p {
     max-width: 50%;
-}
+} */
 
 #topchristmastree img {
     border: 5px solid black;
@@ -541,5 +540,31 @@ footer text {
 #social {
     margin-left:55%;
 }
-.fa-instagram:before {
-    content: "\f16d"; }
+.corner-covid {
+    background: transparent;
+    border: 0.1rem solid currentColor;
+    padding: 0.7rem 2rem;
+    font-size: 0.4rem;
+    position: relative;
+    color: #CC231E;
+  }
+
+  .corner-covid::before {
+    width: calc(100% - 4rem);
+    height: calc(101% + 1rem);
+    top: -0.5rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  .corner-covid::after {
+    height: calc(120% - 4rem);
+    width: calc(101% + 1rem);
+    left: -0.5rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+
+}
