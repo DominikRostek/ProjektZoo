@@ -295,8 +295,7 @@ html {
 }
 .buffet{
     margin: 0;
-    /* background-color: #235E6F; */
-    background-color: blanchedalmond;
+    background-color: #235E6F; 
 } 
 .buffetsection{
     text-align: center;
