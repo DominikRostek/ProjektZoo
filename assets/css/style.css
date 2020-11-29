@@ -313,7 +313,7 @@ aside{
     grid-row-end: 2;
     text-align: left;
 }
-h2, p{
+.text h2, p{
    color: white;
 }
 
