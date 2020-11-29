@@ -308,7 +308,7 @@ html {
 }
 
 .buffetText{
-    width: 100%;
+    width: 80%;
     margin-top: 20%;
     margin-left:5% ;
     grid-column-start: 2;
