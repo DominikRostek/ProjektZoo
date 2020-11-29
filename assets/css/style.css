@@ -146,7 +146,7 @@ p {
 }
 /* -------------------------------Christmas event------------------------ */
 @media (min-width: 200px) and (max-width:1500px) {
-    h1 {
+    .container h1 {
      
       margin-left:auto;
       margin-right: auto;
@@ -156,14 +156,14 @@ p {
 } 
  
  @media (min-width: 200px) {
-    p {
+    .paragraph p {
       font-size: 10px;
       color:black;
       
     }
 
     @media (min-width: 576px) {
-        p {
+        .paragraph p {
           font-size: 15px;
          color: black;
            
@@ -203,7 +203,7 @@ p {
     border-radius: 2%;
     
 }
-p {
+.paragraph p {
     margin-bottom:-200px;
     color: white;
     margin-left:100px;
@@ -226,21 +226,21 @@ p {
 }
 
 
-h3 {
+.container h3 {
     margin-top:100px;
     font-size: 30px;
     color: white;
     margin-left:100px ;
 }
 
-h2 {
+.container h2 {
     font-size: 30px;
     color: white;
     margin-left:60%;
     margin-top: -800px;
     float: left;
 }
- h4 {
+.container h4 {
      font-size:20px;
  }
  /* -------------------------Famous person----------------------- */
