@@ -145,6 +145,14 @@ html {
     float: right;
 }
 /* -------------------------------Christmas event------------------------ */
+#one {
+    margin-left:70px;
+}
+#two {
+    margin-left:96px;
+}
+
+
 @media (min-width: 200px) and (max-width:1500px) {
     .container h1 {
      
