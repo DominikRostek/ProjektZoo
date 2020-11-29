@@ -5,7 +5,7 @@ html {
 }
 
 .topheader {
-    border: 10px solid black; /* Only for Semantic Structure */
+    border: 5px solid black; /* Only for Semantic Structure */
     background-color:  white;
     width: 100%;
     text-align: left;
@@ -189,6 +189,7 @@ html {
     width: 100%;
     height: auto;
     background-color: #db4743;
+  
    justify-content: center;
 }
 
@@ -245,11 +246,6 @@ html {
  /* -------------------------Famous person----------------------- */
 
  /* ---------------------Gallery---------------------------- */
- 
- .all-gallery{
-    background-color: #DB4743;
- }
-
  .light img{
     width: 100%;
      margin-left: -7px;
@@ -311,8 +307,8 @@ html {
 }
 
 .buffetText{
-    width: 80%;
-    margin-top: 30%;
+    width: 100%;
+    margin-top: 20%;
     margin-left:5% ;
     grid-column-start: 2;
     grid-column-end: 3;
