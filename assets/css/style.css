@@ -292,7 +292,10 @@ p {
     padding: 10px;
     box-sizing: border-box;
 }
-
+.buffet{
+    margin: 0;
+    background-color: #235E6F;
+} 
 section{
     text-align: center;
     margin-left:10% ;
