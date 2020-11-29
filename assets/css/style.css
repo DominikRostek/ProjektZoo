@@ -227,14 +227,10 @@ html {
        margin: 100px; 
 }
 .secondp {
-    margin-top:-230px;
-    padding-bottom:100px;
-    margin-left: 20px;
-    
+    margin-top:-240px;
+    padding-bottom:190px;
+    margin-left: 820px;
 }
-
-
-
 
 .container h1 {
     text-align: center;
@@ -250,7 +246,7 @@ html {
 .container h2 {
     font-size: 30px;
     color: white;
-    margin-left:820px ;
+   
 
     
 }
