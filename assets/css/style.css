@@ -183,7 +183,7 @@ p {
     width: 100%;
     height: auto;
     background-color: #db4743;
-    
+    margin-left: 60px;
    justify-content: center;
 }
 
@@ -288,8 +288,7 @@ p {
 }
 .buffet{
     margin: 0;
-    /* background-color: #235E6F; */
-    background-color: aqua;
+    background-color: #235E6F;
 } 
 .buffetsection{
     text-align: center;
