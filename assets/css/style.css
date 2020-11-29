@@ -152,6 +152,7 @@ html {
 }
 
 
+
 @media (min-width: 200px) and (max-width:1500px) {
     .container h1 {
      
@@ -181,8 +182,6 @@ html {
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
- 
-   
 }
 
 .container1 {
@@ -204,7 +203,7 @@ html {
     
 }
 .paragraph p {
-    margin-bottom:-200px;
+    
     color: white;
     margin-left:100px;
     font-size: 20px;
@@ -221,7 +220,7 @@ html {
 }
 .paragraph {
     margin-left:710px;
-    margin-top:-600px;
+    margin-bottom:-700px;
    
 }
 
@@ -522,25 +521,26 @@ html {
 } 
 
 footer {
-    /* margin-top: 35%; */
     background-color: #3B5B3B;
-    height: 60vh;
-    color: white;
+    height: 20vh;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    margin-top: 15%;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 }
 footer p {
     margin-left: 20%;
+    color: black;
 }
 footer img{
-    margin-left: 20%;
+    margin-left: 10%;
     float:left;
 }
 footer text {
     margin-left: 20px;
-    margin-top: 30px;
+    color: black;
 }
 
 #social {
