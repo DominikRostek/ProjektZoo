@@ -197,16 +197,16 @@ p {
 
 
  .container {
-    width: 1920px;
-    height: 1200px;
+    width: 100%;
+    height: auto;
     background-color: rgb(255, 255, 255);
  
    
 }
 
 .container1 {
-    width:1400px;
-    height: 1000px;
+    width: 100%;
+    height: auto;
     background-color: #db4743;
     margin-left: 60px;
    justify-content: center;
