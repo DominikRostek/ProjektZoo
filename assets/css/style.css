@@ -251,11 +251,17 @@ html {
  /* -------------------------Famous person----------------------- */
 
  /* ---------------------Gallery---------------------------- */
+<<<<<<< HEAD
  
  .all-gallery{
     background-color: #DB4743;
  }
 
+=======
+  .all-gallery{
+     background-color: #db4743 ;
+ }
+>>>>>>> 951499e043fdc59112af1668ce9096a519bd28fe
  .light img{
     width: 100%;
      margin-left: -7px;
@@ -292,6 +298,8 @@ html {
  }
 
  /* -----------------------------------Buffet--------------------------- */
+
+
  .grid{
     height: 100vh;
     display: grid;
