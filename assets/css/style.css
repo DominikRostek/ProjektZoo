@@ -146,10 +146,14 @@ html {
 /* -------------------------------Christmas event------------------------ */
 #one {
     margin-left:100px;
+    padding-bottom: 290px;
+  
   
 }
 #two {
     margin-left:130px;
+    margin-top:-50px;
+   
 }
 <<<<<<< Updated upstream
  #four {
