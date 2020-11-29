@@ -189,7 +189,6 @@ html {
     width: 100%;
     height: auto;
     background-color: #db4743;
-  
    justify-content: center;
 }
 
@@ -246,6 +245,11 @@ html {
  /* -------------------------Famous person----------------------- */
 
  /* ---------------------Gallery---------------------------- */
+ 
+ .all-gallery{
+    background-color: #DB4743;
+ }
+
  .light img{
     width: 100%;
      margin-left: -7px;
@@ -307,8 +311,8 @@ html {
 }
 
 .buffetText{
-    width: 100%;
-    margin-top: 20%;
+    width: 80%;
+    margin-top: 30%;
     margin-left:5% ;
     grid-column-start: 2;
     grid-column-end: 3;
