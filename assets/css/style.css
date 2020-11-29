@@ -522,25 +522,26 @@ html {
 } 
 
 footer {
-    /* margin-top: 35%; */
     background-color: #3B5B3B;
-    height: 60vh;
-    color: white;
+    height: 20vh;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    margin-top: 15%;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 }
 footer p {
     margin-left: 20%;
+    color: black;
 }
 footer img{
-    margin-left: 20%;
+    margin-left: 10%;
     float:left;
 }
 footer text {
     margin-left: 20px;
-    margin-top: 30px;
+    color: black;
 }
 
 #social {
