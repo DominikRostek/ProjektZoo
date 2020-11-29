@@ -145,15 +145,15 @@ html {
 }
 /* -------------------------------Christmas event------------------------ */
 #one {
-    margin-left:70px;
+    margin-left:100px;
+  
 }
 #two {
-    margin-left:96px;
+    margin-left:130px;
 }
  #four {
-
+     margin-left:800px;
  }
-
 
 @media (min-width: 200px) and (max-width:1500px) {
     .container h1 {
@@ -163,6 +163,7 @@ html {
       color: red;
       text-align: center;
     }
+
 } 
  
  @media (min-width: 200px) {
@@ -189,42 +190,40 @@ html {
 .container1 {
     width: 100%;
     height: auto;
-    background-color: #db4743;
-   justify-content: center;
+    background-color: #db4743; 
 }
 
-
-
-
-
 #image1 {
-    margin-left:100px;
-    margin-top:120px;
+    margin-left:140px;
+    margin-top:100px;
     border-radius: 2%;
     
 }
 .paragraph p {
     
     color: white;
-    margin-left:100px;
+    margin-left:600px;
+    margin-top: -300px;
     font-size: 20px;
-    margin-top: auto;
 
-}
-#image2 {
-        margin-right:130px;
-        margin-top:30px;
-        border-radius: 2%;
-        float:right;
-       
-      
+    
     
 }
-.paragraph {
-    margin-left:710px;
-    margin-bottom:-500px;
-   
+
+#image2 {
+      
+        border-radius: 2%;
+       margin: 100px; 
 }
+.secondp {
+    margin-top:-230px;
+    padding-bottom:100px;
+    margin-left: 20px;
+    
+}
+
+
+
 
 .container h1 {
     text-align: center;
@@ -240,9 +239,9 @@ html {
 .container h2 {
     font-size: 30px;
     color: white;
-    margin-left:60%;
-    margin-top: -900px;
-    float: left;
+    margin-left:820px ;
+
+    
 }
 
 .container h4 {
@@ -251,17 +250,9 @@ html {
  /* -------------------------Famous person----------------------- */
 
  /* ---------------------Gallery---------------------------- */
-<<<<<<< HEAD
- 
- .all-gallery{
-    background-color: #DB4743;
- }
-
-=======
   .all-gallery{
      background-color: #db4743 ;
  }
->>>>>>> 951499e043fdc59112af1668ce9096a519bd28fe
  .light img{
     width: 100%;
      margin-left: -7px;
