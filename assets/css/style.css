@@ -305,11 +305,17 @@ html {
     padding-right: 25px;
     float: right;
     display: inline-block;
-    margin: 2%;
-    
-
-    
+    margin: 2%; 
 }
+
+#christmasqueen {
+  font-size:30px;
+  margin-bottom: 60px;
+}
+#cakeparagraph {
+  font-size:20px;
+}
+
 .famous1 {
     float: left;
     display: inline-block;
