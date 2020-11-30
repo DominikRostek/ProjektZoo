@@ -374,7 +374,10 @@ html {
 
 
  .grid{
-    height: 100vh;
+    height: auto;
+    margin: 0;
+    background-color:#326979; 
+    border: 5px solid black;
     display: grid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     grid-template-columns: 1fr 1fr;
@@ -383,10 +386,7 @@ html {
     padding: 10px;
     box-sizing: border-box;
   }
-  .buffet{
-    margin: 0;
-    background-color:#326979; 
-  } 
+
   .buffetsection{
     text-align: center;
     margin-left:10% ;
@@ -413,7 +413,8 @@ html {
   .text1 p{
     color: white;
    }
-  
+
+
   .corner-button {
     background: transparent;
     border: 0.2rem solid currentColor;
@@ -528,14 +529,11 @@ html {
   }
   /* ------------------------------ Covid -------------------- */
   
-  
-  .covid-txt{
-    margin: 0;
-    background-color: #ffffff;
-  }
-  
   .grid1{
-    height: 100vh;
+    height: auto;
+    margin: 0;
+    background-color:#ffffff; 
+    border: 5px solid black;
     display: grid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     grid-template-columns: 1fr 1fr;
@@ -704,7 +702,7 @@ html {
       grid-column-end: 3;
   }
     .image-giraffe img{
-        width: 60vw;
+        width: 30vw;
     }
   
     .corner-button1 {
