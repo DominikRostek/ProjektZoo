@@ -138,10 +138,11 @@ html {
 
 #topchristmastree img {
 
-    height: 40%;
-    width: 40%;
+    height: auto;
+    max-width: 40vw;
+    position: relative;
     float: left;
-    display: inline;
+    display: inline-block;
     margin-left: 3vh;
 }
 
@@ -149,13 +150,13 @@ html {
 
 #topvideobox video {
     float: right;
-    height: 300px;
-    width: 50%;
-    margin-right: 3vh;
+    height: auto;
+    max-width: 50vw;
+    position: relative;
+    margin-right: 3vw;
     margin-bottom: 3vh;
-    display: inline;
+    display: inline-block;
   
-    
     
     object-fit: initial;
 }
