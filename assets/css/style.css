@@ -202,19 +202,9 @@ html {
 
 } 
  
- @media (min-width: 200px) {
-    .paragraph p {
-      font-size: 10px;
-      color:black;
-      
-    }
 
-    @media (min-width: 576px) {
-        .paragraph p {
-          font-size: 15px;
-         color: black;
-           
-        }
+
+   
 
 
  .container {
