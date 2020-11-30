@@ -390,7 +390,7 @@ html {
   .buffetsection{
     text-align: center;
     margin-left:10% ;
-    margin-top: 7%;
+    margin-top: 0%;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -399,7 +399,7 @@ html {
   
   .buffetText{
     width: 80%;
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left:5% ;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -488,7 +488,7 @@ html {
         text-align: left;
     }
     .buffetsection{
-        height: 100vh;
+        height: 70vh;
         margin-top: 5%;
         margin-left: 3%;
         grid-row-start: 2;
@@ -544,7 +544,7 @@ html {
   }
   
   .section-giraffe{
-  width: 40vw;
+  width: 30vw;
   text-align: center;
   margin-top: 0%;
   margin-left:15% ;
@@ -625,7 +625,7 @@ html {
         text-align: left;
     }
     .section-giraffe{
-        height: 100vh;
+        height: 72%;
         margin-top: 2%;
         margin-left: 23%;
         grid-row-start: 2;
@@ -692,11 +692,11 @@ html {
       text-align: left;
   }
   .section-giraffe{
-      height: 100vh;
+    height: 45%;
       margin-top: 7%;
       margin-left: 20%;
       grid-row-start: 2;
-      grid-row-end: 3;
+      grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 3;
   }
