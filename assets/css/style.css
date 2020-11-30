@@ -407,10 +407,12 @@ html {
     grid-row-end: 2;
     text-align: left;
   }
-  .text1 p, h2{
+  .text1 h2{
    color: white;
   }
-  
+  .text1 p{
+    color: white;
+   }
   
   .corner-button {
     background: transparent;
@@ -566,11 +568,14 @@ html {
   grid-column-start: 1;
   grid-column-end: 2;
   }
-  .text h2, p{
+  .text h2{
    color:  #CC231E;
   }
   
-  
+  .text p{
+    color:  #CC231E;
+   }
+   
   
   .corner-button1 {
     background: transparent;
