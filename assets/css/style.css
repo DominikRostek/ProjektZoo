@@ -181,38 +181,14 @@ html {
 }
 #four { 
 
-     margin-left:800px;
+     margin-left:20px;
     }
 #three {
     font-size:20px;
 }
 
-@media (min-width: 200px) and (max-width:1500px) {
-    .container h1 {
-     
-      margin-left:auto;
-      margin-right: auto;
-      color: red;
-      text-align: center;
-      
-    }
   
-     
-     @media (min-width: 200px) {
-        p {
-          font-size: 10px;
-          color:black;
-          
-        }
-    
-        @media (min-width: 576px) {
-            p {
-              font-size: 15px;
-             color: black;
-               
-            }
 
-} 
 .container {
     width: 100%;
     height: auto;
@@ -270,10 +246,8 @@ html {
 .container h2 {
     font-size: 30px;
     color: white;
+    margin-left:20px ;
 }
-
-
-
 
 
 .container h4 {
