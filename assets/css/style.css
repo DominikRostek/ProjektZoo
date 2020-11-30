@@ -201,7 +201,17 @@ html {
     }
 
 } 
+<<<<<<< HEAD
 .container {
+=======
+ 
+
+
+   
+
+
+ .container {
+>>>>>>> 817bbd2c185c44a2702457ad1622131aa7e9b4d9
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
