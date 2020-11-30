@@ -1,42 +1,45 @@
 
 html {
-    max-width:100%;
+    width:auto;
+    margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #firstpage {
   margin-left:40px;
   margin-top:30px;
- 
 }
+
 #firstpage1 {
   font-size:30px;
   margin-left:40px;
   font-family: 'Unna', serif;
-}
+} 
 
 .topheader {
-    border: 3px solid black; /* Only for Semantic Structure */
-    box-shadow: 3px 3px 8px white;
-    background-color:  white;
-    width: 100%;
-    text-align: left;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0px;
-    display: inline-block;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-	position: -webkit-sticky; /* Safari */
-	position: sticky;
-	top: 0;
-    z-index: 1337;
-    overflow: hidden;
-
+  border: 3px solid black; /* Only for Semantic Structure */
+  box-shadow: 3px 3px 4px white;
+  background-color:  white;
+  width: auto;
+  text-align: left;
+  font-size: 12px; 
+  margin: 0px;
+  /* padding-left: 0px;
+  padding-right: 0px;
+  /* display: inline-block; */
+  /* margin-bottom: 0px;
+  padding-bottom: 0px; */
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  overflow: hidden;
 }
 
 
 #topheaderleft {
-    width: auto;
+    width: 15%;
     height: auto;
     float: left;
     margin-left: 50px;
@@ -184,8 +187,6 @@ html {
     font-size:20px;
 }
 
-  
-
 .container {
     width: 100%;
     height: auto;
@@ -202,20 +203,18 @@ html {
 
 
 #image1 {
-    margin-left:140px;
-    margin-top:120px;
+    margin-left:10%;
+    margin-top:5%;
     border-radius: 2%;
-    position: relative;
+   
     
 }
-.paragraph p {
-    
+/* .paragraph p { 
     color: white;
     margin-left:600px;
     margin-top: -300px;
     font-size: 20px;
- 
-}
+} */
 
 #image2 {
      
