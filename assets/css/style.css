@@ -192,6 +192,21 @@ html {
       text-align: center;
       
     }
+  
+     
+     @media (min-width: 200px) {
+        p {
+          font-size: 10px;
+          color:black;
+          
+        }
+    
+        @media (min-width: 576px) {
+            p {
+              font-size: 15px;
+             color: black;
+               
+            }
 
 } 
 .container {
