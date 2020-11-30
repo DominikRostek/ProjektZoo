@@ -14,10 +14,6 @@ html {
   font-family: 'Unna', serif;
 }
 
-
-
-
-
 .topheader {
     border: 3px solid black; /* Only for Semantic Structure */
     box-shadow: 3px 3px 8px white;
@@ -154,9 +150,6 @@ html {
     margin-right: 3vh;
     margin-bottom: 3vh;
     display: inline;
-  
-    
-    
     object-fit: initial;
 }
 
