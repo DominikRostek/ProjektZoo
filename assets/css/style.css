@@ -23,30 +23,30 @@ html {
 
 }
 
-#logo {
-    width:100px;
+.topheader {
 }
-
-.topheader 
 
 
 #topheaderleft {
+    width: 30vw;
     float: left;
-    padding-left: 60px;
+    margin-left: 50px;
+    display: inline-block;
     
 }
     
 #topheaderleft img {
-    width: 70%;
+    width: 50%;
+    height: 100%;
 }
     
 
 #topheaderright {
     float: right;
-    padding-right: 60px;
+    padding-right: 50px;
     font-size: 200%;
-    margin-top: 15px;
-    margin-right: 60px;
+    margin-top: 2vh;
+    margin-right: 50px;
 
 }
 
