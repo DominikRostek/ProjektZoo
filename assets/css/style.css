@@ -151,13 +151,9 @@ html {
     position: relative;
     margin-right: 3vw;
     margin-bottom: 3vh;
-<<<<<<< HEAD
-    display: inline;
-=======
     display: inline-block;
   
     
->>>>>>> d0ebb12bc26e4ab53e5af95f8aae7776d6a888a4
     object-fit: initial;
 }
 
