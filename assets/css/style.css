@@ -168,6 +168,11 @@ html {
     float: right;
 }
 /* -------------------------------Christmas event------------------------ */
+
+
+
+
+
 #one {
     margin-left:130px;
     padding-bottom: 190px;
@@ -199,7 +204,8 @@ html {
 .container1 {
     width: 100%;
     height: auto;
-    background-color: #db4743; 
+    background-color: #db4743;
+   
 }
 
 
@@ -207,6 +213,7 @@ html {
     margin-left:140px;
     margin-top:120px;
     border-radius: 2%;
+    position: relative;
     
 }
 .paragraph p {
@@ -223,6 +230,7 @@ html {
     border-radius: 2%;
        margin-top:-100px; 
        margin-left: 860px;
+       position: relative;
 }
 .secondp {
     margin-top:-320px;
