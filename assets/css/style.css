@@ -199,19 +199,25 @@ html {
       text-align: center;
       
     }
+  
+     
+     @media (min-width: 200px) {
+        p {
+          font-size: 10px;
+          color:black;
+          
+        }
+    
+        @media (min-width: 576px) {
+            p {
+              font-size: 15px;
+             color: black;
+               
+            }
 
 } 
 <<<<<<< HEAD
 .container {
-=======
- 
-
-
-   
-
-
- .container {
->>>>>>> 817bbd2c185c44a2702457ad1622131aa7e9b4d9
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
