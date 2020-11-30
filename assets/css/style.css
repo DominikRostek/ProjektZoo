@@ -3,6 +3,12 @@ html {
     max-width:100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#firstpage {
+  margin-left:20px;
+}
+
+
+
 
 .topheader {
     border: 5px solid black; /* Only for Semantic Structure */
@@ -121,9 +127,9 @@ html {
 } */
 
 #topchristmastree img {
-    border: 5px solid black;
-    height: 33%;
-    width: 33%;
+
+    height: 30%;
+    width: 30%;
     float: left;
     display: inline-block;
 }
