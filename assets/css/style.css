@@ -23,16 +23,11 @@ html {
 
 }
 
-<<<<<<< HEAD
-
-=======
-.topheader {
-}
->>>>>>> 4dd55104d2e13d5d800d5719cb8c0b3bc95bf3d7
 
 
 #topheaderleft {
-    width: 30vw;
+    width: 35vw;
+    height: 7vh;
     float: left;
     margin-left: 50px;
     display: inline-block;
