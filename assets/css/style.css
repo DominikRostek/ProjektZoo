@@ -5,13 +5,15 @@ html {
 }
 #firstpage {
   margin-left:20px;
+ 
 }
 
 
 
 
 .topheader {
-    border: 5px solid #467237; /* Only for Semantic Structure */
+    border: 3px solid black; /* Only for Semantic Structure */
+    box-shadow: 3px 3px 8px white;
     background-color:  white;
     width: 100%;
     text-align: left;
