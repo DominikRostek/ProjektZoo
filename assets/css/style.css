@@ -374,7 +374,6 @@ html {
     height: auto;
     margin: 0;
     background-color:#326979; 
-    border: 5px solid black;
     display: grid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     grid-template-columns: 1fr 1fr;
@@ -531,7 +530,6 @@ html {
     height: auto;
     margin: 0;
     background-color:#ffffff; 
-    border: 5px solid black;
     display: grid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     grid-template-columns: 1fr 1fr;
