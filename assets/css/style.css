@@ -76,7 +76,7 @@ html {
 }
 
 .topheader li a:hover {
-    color: black;
+    color: red;
 }
 
 @media screen and (max-width: 500px) {
