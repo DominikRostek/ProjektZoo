@@ -138,19 +138,22 @@ html {
 
 #topchristmastree img {
 
-    height: 30%;
-    width: 30%;
+    height: 40%;
+    width: 40%;
     float: left;
-    display: inline-block;
+    display: inline;
+    margin-left: 3vh;
 }
 
 
 
 #topvideobox video {
-    height: 340px;
-    width: 600px;
-    margin-left:300px;
-    margin-top:-100px;
+    float: right;
+    height: 300px;
+    width: 50%;
+    margin-right: 3vh;
+    margin-bottom: 3vh;
+    display: inline;
   
     
     
