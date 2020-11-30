@@ -3,16 +3,6 @@ html {
     max-width:100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#firstpage {
-  margin-left:40px;
-  margin-top:30px;
- 
-}
-#firstpage1 {
-  font-size:30px;
-  margin-left:40px;
-  font-family: 'Unna', serif;
-}
 
 .topheader {
     border: 3px solid black; /* Only for Semantic Structure */
@@ -98,36 +88,40 @@ html {
 
 .topsection {
     width: 100%;
-    height: auto;
+    height: 550px;
     display: inline-block;
     background-color: #326979;
     color: white;
     padding: 0;
 }
-
 .toptext {
-    border: 5px solid black;
     width: 33%;
-    height: 100%;
-    font-size: 1vw;
+    height: auto;
     text-align: left;
-    color: white;
-    display: block;
-    text-align: right;
     display: inline-block;
     margin: 50px;
+    float: left;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .toptext h2 {
-    font-size: 200%;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-size: 250%;
 }
 
-.toptext p {
-    padding-left: 30px;
-    padding-right: 30px;
+#firstpage {
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 110%;
+ 
 }
+#firstpage1 {
+  font-size: 30px;
+  margin-left: 40px;
+  font-family: 'Unna', serif;
+}
+
 /* p {
     max-width: 50%;
 } */
@@ -138,7 +132,7 @@ html {
     max-width: 40vw;
     position: relative;
     float: left;
-    display: inline-block;
+    display: inline;
     margin-left: 3vh;
 }
 
