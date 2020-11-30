@@ -213,7 +213,7 @@ html {
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
-    border: 5px solid black;
+    border: 1px white;
 }
 
 .container1 {
@@ -278,7 +278,7 @@ html {
 
 .famousperson {
     height: auto;
-    border: 5px solid black;
+    
     display: inline-block;
 }
 
