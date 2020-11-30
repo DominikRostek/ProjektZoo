@@ -26,8 +26,6 @@ html {
 
 
 #topheaderleft {
-    width: 35vw;
-    height: 7vh;
     float: left;
     margin-left: 50px;
     display: inline-block;
