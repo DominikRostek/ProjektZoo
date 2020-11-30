@@ -26,8 +26,6 @@ html {
 
 
 #topheaderleft {
-    width: 35vw;
-    height: 7vh;
     float: left;
     margin-left: 50px;
     display: inline-block;
@@ -35,8 +33,7 @@ html {
 }
     
 #topheaderleft img {
-    width: 50%;
-    height: 100%;
+
 }
     
 
