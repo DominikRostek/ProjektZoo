@@ -175,20 +175,13 @@ html {
     margin-top:-240px;
    
 }
-<<<<<<< Updated upstream
- #four {
-<<<<<<< HEAD
+#four { 
+
      margin-left:800px;
-    
-=======
-=======
+    }
 #three {
     font-size:20px;
 }
->>>>>>> Stashed changes
-
->>>>>>> 7712f1ec03b1125b002bac1bf9aa0ddcebd3d557
- }
 
 @media (min-width: 200px) and (max-width:1500px) {
     .container h1 {
@@ -201,17 +194,7 @@ html {
     }
 
 } 
-<<<<<<< HEAD
 .container {
-=======
- 
-
-
-   
-
-
- .container {
->>>>>>> 817bbd2c185c44a2702457ad1622131aa7e9b4d9
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -699,10 +682,10 @@ footer text {
     width: 10%;
     margin-left:20px;
 }
-@media only screen and (max-width:950px){
+/* @media only screen and (max-width:950px){
   footer {
     height: 50vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
   }
-}
+} */
