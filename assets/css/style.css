@@ -151,6 +151,7 @@ html {
 #one {
     margin-left:130px;
     padding-bottom: 190px;
+    color: white;
   
 }
 #two {
@@ -162,6 +163,7 @@ html {
  #four {
 <<<<<<< HEAD
      margin-left:800px;
+    
 =======
 =======
 #three {
@@ -237,6 +239,7 @@ html {
     margin-top:-320px;
     padding-bottom:190px;
     margin-left: 820px;
+    color: white;
 }
 
 .container h1 {
