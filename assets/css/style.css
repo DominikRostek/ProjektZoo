@@ -178,20 +178,13 @@ html {
     margin-top:-240px;
    
 }
-<<<<<<< Updated upstream
- #four {
-<<<<<<< HEAD
+#four { 
+
      margin-left:800px;
-    
-=======
-=======
+    }
 #three {
     font-size:20px;
 }
->>>>>>> Stashed changes
-
->>>>>>> 7712f1ec03b1125b002bac1bf9aa0ddcebd3d557
- }
 
 @media (min-width: 200px) and (max-width:1500px) {
     .container h1 {
@@ -202,15 +195,24 @@ html {
       text-align: center;
       
     }
+  
+     
+     @media (min-width: 200px) {
+        p {
+          font-size: 10px;
+          color:black;
+          
+        }
+    
+        @media (min-width: 576px) {
+            p {
+              font-size: 15px;
+             color: black;
+               
+            }
 
 } 
- 
-
-
-   
-
-
- .container {
+.container {
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -660,101 +662,7 @@ html {
   .image-giraffe img{
     width: 50vw;
   }
-    .corner-button1 {
-      background: transparent;
-      border: 0.2rem solid currentColor;
-      padding: 1.1rem 2rem;
-      font-size: 0.9rem;
-      position: relative;
-      color: #CC231E;
-    }
-    
-    .corner-button1 p, h2 {
-      position: relative;
-      z-index: 2;
-    }
-    .corner-button1::before, .corner-button1::after {
-      content: '';
-      position: absolute;
-      background: #ffffff;
-      z-index: 1;
-    }
-    .corner-button1::before {
-      width: calc(100% - 13rem);
-      height: calc(101% + 1rem);
-      top: -0.5rem;
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-              transform: translateX(-50%);
-    }
-    
-    .corner-button1::after {
-      height: calc(120% - 15rem);
-      width: calc(101% + 1rem);
-      left: -0.5rem;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-              transform: translateY(-50%);
-    }
-  
-  
-  
-  }
-  
-  @media only screen and (max-width:450px){
-  
-    .text-covid{
-      width: 70%;
-      grid-column-start: 1;
-      grid-column-end: 3;
-      grid-row-start: 1;
-      grid-row-end: 2;
-      margin-top: 5%;
-      margin-right: 5%;
-      text-align: left;
-  }
-  .section-giraffe{
-      height: 100vh;
-      margin-top: 7%;
-      margin-left: 20%;
-      grid-row-start: 2;
-      grid-row-end: 3;
-      grid-column-start: 1;
-      grid-column-end: 3;
-  }
-    .image-giraffe img{
-        width: 30vw;
-    }
-  
-    .corner-button1 {
-        background: transparent;
-        border: 0.1rem solid currentColor;
-        padding: 0.7rem 2rem;
-        font-size: 0.2rem;
-        position: relative;
-        color: #CC231E;
-      }
-  
-      .corner-button1::before {
-        width: calc(100% - 4rem);
-        height: calc(101% + 1rem);
-        top: -0.5rem;
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
-      }
-      
-      .corner-button1::after {
-        height: calc(120% - 4rem);
-        width: calc(101% + 1rem);
-        left: -0.5rem;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-                transform: translateY(-50%);
-      }
-  
-  } 
-  
+ 
   /* ------------------------------ Footer-------------------- */
 
 footer {
@@ -792,3 +700,10 @@ footer text {
     width: 10%;
     margin-left:20px;
 }
+/* @media only screen and (max-width:950px){
+  footer {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+} */
