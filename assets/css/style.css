@@ -4,9 +4,16 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #firstpage {
-  margin-left:20px;
+  margin-left:40px;
+  margin-top:30px;
  
 }
+#firstpage1 {
+  font-size:30px;
+  margin-left:40px;
+  font-family: 'Unna', serif;
+}
+
 
 
 
@@ -190,6 +197,7 @@ html {
       margin-right: auto;
       color: red;
       text-align: center;
+      
     }
 
 } 
@@ -254,6 +262,7 @@ html {
 .container h1 {
     text-align: center;
     color: #db4743;
+    font-family: 'Unna', serif;
 }
 .container h3 {
     margin-top:100px;
@@ -421,6 +430,7 @@ html {
   }
   .text1 h2{
    color: white;
+   font-size:30px;
   }
   .text1 p{
     color: white;
