@@ -3,9 +3,15 @@ html {
     max-width:100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#firstpage {
+  margin-left:20px;
+}
+
+
+
 
 .topheader {
-    border: 5px solid black; /* Only for Semantic Structure */
+    border: 5px solid #467237; /* Only for Semantic Structure */
     background-color:  white;
     width: 100%;
     text-align: left;
@@ -43,7 +49,8 @@ html {
     float: right;
     padding-right: 50px;
     font-size: 200%;
-    margin-top: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     margin-right: 50px;
 
 }
@@ -70,7 +77,7 @@ html {
 }
 
 .topheader li a:hover {
-    color: black;
+    color: red;
 }
 
 @media screen and (max-width: 500px) {
@@ -121,9 +128,9 @@ html {
 } */
 
 #topchristmastree img {
-    border: 5px solid black;
-    height: 33%;
-    width: 33%;
+
+    height: 30%;
+    width: 30%;
     float: left;
     display: inline-block;
 }
@@ -151,6 +158,7 @@ html {
 #one {
     margin-left:130px;
     padding-bottom: 190px;
+    color: white;
   
 }
 #two {
@@ -162,6 +170,7 @@ html {
  #four {
 <<<<<<< HEAD
      margin-left:800px;
+    
 =======
 =======
 #three {
@@ -237,6 +246,7 @@ html {
     margin-top:-320px;
     padding-bottom:190px;
     margin-left: 820px;
+    color: white;
 }
 
 .container h1 {
