@@ -180,7 +180,7 @@ html {
 }
 #four { 
 
-    
+     margin-left:20px;
     }
 #three {
     font-size:20px;
@@ -245,6 +245,7 @@ html {
 .container h2 {
     font-size: 30px;
     color: white;
+    margin-left:20px ;
 }
 
 
@@ -609,7 +610,7 @@ html {
   }
   
   
-@media only screen and (max-width:968px){
+  @media only screen and (max-width:968px){
   
     .text-covid{
         width: 70%;
@@ -629,7 +630,7 @@ html {
         grid-row-end: 3;
         grid-column-start: 1;
         grid-column-end: 3;
-}
+    }
   
   
   .image-giraffe img{
@@ -673,24 +674,10 @@ footer text {
     width: 10%;
     margin-left:20px;
 }
-@media only screen and (max-width:950px){
+/* @media only screen and (max-width:950px){
   footer {
     height: 50vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: auto;
   }
-  footer img {
-    width: 150px;
-    margin-left: 10%;
-  }
-  footer text {
-    margin-top:20%;
-    margin-left: 20%;
-    grid-column-start: 3;
-  }
-  #social {
-    margin-left:10%;
-    color:white;
-  }
-}
+} */
