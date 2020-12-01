@@ -259,21 +259,30 @@ html {
      font-size:20px;
  }
  /* -------------------------Famous person----------------------- */
+ 
+ .famousperson {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  border: 5px solid #db4743;
+  margin: 2%;
+}
 
-.famousperson {
-    height: auto;
-    
-    display: inline-block;
+
+.famousgrid {
+  background-color:#ffffff;
+  display: grid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .famouscontainer {
-    border: 5px solid red;
     margin: 2%;
     padding-top: 25px;
     padding-bottom: 25px;
-    display: inline-block;
-}
+    
 
+}
 
 #famousimage2 {
     border-radius: 2%;
@@ -316,21 +325,22 @@ html {
 
 
 .famouscontainer p {
-    color: red;
+    color: #db4743;
     font-size: 120%;
 }
 
 
 .famouscontainer h2 {
     font-size: 180%;
-    color: red;
+    color: #db4743;
        
 }
 
 .famouscontainer h4 {
      font-size: 140%;
-     color: red;
+     color: #db4743;
  }
+
 
  /* ---------------------Gallery---------------------------- */
  .all-gallery{
