@@ -6,20 +6,10 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#firstpage {
-  margin-left:40px;
-  margin-top:30px;
-}
-
-#firstpage1 {
-  font-size:30px;
-  margin-left:40px;
-  font-family: 'Unna', serif;
-} 
 
 .topheader {
   border: 3px solid black; /* Only for Semantic Structure */
-  box-shadow: 3px 3px 4px white;
+  box-shadow: 3px 3px 4px gray;
   background-color:  white;
   width: auto;
   text-align: left;
@@ -49,7 +39,9 @@ html {
     
 #topheaderleft img {
     width: 75%;
-    height: 100%;
+    height: auto;
+    object-fit: initial;
+    position: relative;
 }
     
 
@@ -77,15 +69,31 @@ html {
 }
 
 .topheader li a {
-    color: #467237;
     text-align: center;
     padding: 20px 10px;
-    text-decoration: none;
     float: right;
 }
 
 .topheader li a:hover {
     color: red;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #467237;
+}
+
+.languages li a {
+  color: #467237;
+  margin: 0;
+  padding: 0;
+  text-decoration: solid;
+  overflow: hidden;
+  font-size: 70%;
+}
+
+.languages {
+  margin-left: 50%;
 }
 
 @media screen and (max-width: 500px) {
@@ -99,30 +107,30 @@ html {
     }
   }
 
+/* -------------------------------Top section------------------------ */
+
 .topsection {
     width: 100%;
     height: auto;
     display: inline-block;
     background-color: #326979;
     color: white;
-    padding: 0;
+    margin: 0;
+    padding: 0;      
 }
 
 .toptext {
-    border: 5px solid black;
-    width: 33%;
+    max-width: 40%;
     height: 100%;
-    font-size: 1vw;
+    font-size: 200%;
     text-align: left;
     color: white;
-    display: block;
-    text-align: right;
     display: inline-block;
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .toptext h2 {
-    font-size: 200%;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -131,9 +139,17 @@ html {
     padding-left: 30px;
     padding-right: 30px;
 }
-/* p {
-    max-width: 50%;
-} */
+
+#firstpage1 {
+  font-size: 150%;
+  margin-left: 40px;
+} 
+
+#firstpage {
+  font-size: 100%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
 
 #topchristmastree img {
 
@@ -142,8 +158,9 @@ html {
     position: relative;
     float: left;
     display: inline-block;
-    margin-left: 3vh;
     margin-top: 5vh;
+    bottom: 6vh;
+    left: 7vw;
 }
 
 
@@ -154,7 +171,7 @@ html {
     max-width: 50vw;
     position: relative;
     margin-right: 3vw;
-    margin-bottom: 3vh;
+    bottom: 6vw;
     display: inline-block;
   
     
