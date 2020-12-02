@@ -8,50 +8,63 @@ html {
 
 
 .topheader {
-border: 3px solid black; /* Only for Semantic Structure */
+border: 3px solid black;
 box-shadow: 3px 3px 4px gray;
 background-color:  white;
 width: auto;
 text-align: left;
-font-size: 12px; 
-margin: 0px;
-/* padding-left: 0px;
-padding-right: 0px;
-/* display: inline-block; */
-/* margin-bottom: 0px;
-padding-bottom: 0px; */
+margin: 0;
 position: -webkit-sticky; /* Safari */
 position: sticky;
 top: 0;
+bottom: 0;
 z-index: 3;
 overflow: hidden;
 }
 
 
 #topheaderleft {
-  width: 15%;
+  width: 40%;
   height: auto;
   float: left;
-  margin-left: 50px;
+  padding-left: 50px;
   display: inline-block;
   
 }
   
 #topheaderleft img {
-  width: 75%;
+  width: 40%;
   height: auto;
   object-fit: initial;
+  display: inline-block;
+}
+
+.languages {
+  display: inline-block;
   position: relative;
+  bottom: 10px;
 }
   
+.languages li a {
+  height: auto;
+  color: #467237;
+  text-decoration: solid;
+  font-size: 100%;
+  display: inline-block;
+  text-align: center;
+  }
+  
+.languages li {
+  display: inline-block;
+  }  
 
 #topheaderright {
   float: right;
   padding-right: 50px;
-  font-size: 200%;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  font-size: 160%;
   margin-right: 50px;
+  padding-top: 3.25%;
+  display: inline-block;
 
 }
 
@@ -68,7 +81,7 @@ overflow: hidden;
   padding-right: 15px;
 }
 
-.topheader li a {
+.topheaderright li a {
   text-align: center;
   padding: 20px 10px;
   float: right;
@@ -83,18 +96,6 @@ text-decoration: none;
 color: #467237;
 }
 
-.languages li a {
-color: #467237;
-margin: 0;
-padding: 0;
-text-decoration: solid;
-overflow: hidden;
-font-size: 70%;
-}
-
-.languages {
-margin-left: 50%;
-}
 
 @media screen and (max-width: 500px) {
   .topheader a {
