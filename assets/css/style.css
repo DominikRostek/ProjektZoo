@@ -109,74 +109,110 @@ margin-left: 50%;
 
 /* -------------------------------Top section------------------------ */
 
-.topsection {
-  width: 100%;
+.grid-top{
   height: auto;
-  display: inline-block;
-  background-color: #326979;
-  color: white;
   margin: 0;
-  padding: 0;      
+  background-color:#326979; 
+  display: grid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.toptext {
-  max-width: 40%;
-  height: 100%;
-  font-size: 200%;
+
+.topvideobox {
+  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+}
+.topvideobox video {
+  width: 70vw;
+}
+
+.About-section{
+  width: 90vw;
+  margin-left: -3px;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.About-section img{
+  margin-top: 0%;
+  width: 98vw;
+}
+
+.text-about{
+  width: 30vw;
+  font-size:1.0rem;
+  margin-top: 0%;
+  margin-left: 35%;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   text-align: left;
   color: white;
-  display: inline-block;
-  margin-top: 50px;
-  margin-left: 50px;
 }
 
-.toptext h2 {
-  padding-left: 30px;
-  padding-right: 30px;
+@media only screen and (max-width:1024px){
+
+  .text-about{
+    width: 50vw;
+    font-size:0.9rem;
+    margin-left: 25%;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: left;
+    color: white;
+  }
+
+  .About-section img{
+    margin-top: 10%;
+    width: 98vw;
+  }
 }
 
-.toptext p {
-  padding-left: 30px;
-  padding-right: 30px;
+@media only screen and (max-width:868px){
+
+  .text-about{
+    width: 50vw;
+    font-size:0.7rem;
+    margin-left: 25%;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: left;
+    color: white;
+  }
 }
 
-#firstpage1 {
-font-size: 150%;
-margin-left: 40px;
-} 
+@media only screen and (max-width:450px){
 
-#firstpage {
-font-size: 100%;
-margin-left: 40px;
-margin-top: 30px;
+  .text-about{
+    width: 60vw;
+    font-size:0.3rem;
+    margin-left: 15%;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: left;
+    color: white;
+  }
 }
 
-#topchristmastree img {
-
-  height: auto;
-  max-width: 40vw;
-  position: relative;
-  float: left;
-  display: inline-block;
-  margin-top: 5vh;
-  bottom: 6vh;
-  left: 7vw;
-}
-
-
-
-#topvideobox video {
-  float: right;
-  height: auto;
-  max-width: 50vw;
-  position: relative;
-  margin-right: 3vw;
-  bottom: 6vw;
-  display: inline-block;
-
-  
-  object-fit: initial;
-}
 
 
 /* -------------------------------opening hours------------------------ */
