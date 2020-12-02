@@ -191,7 +191,10 @@ background-color: #db4743;
 }
 
 .opening-hours img{
-margin-left: 25%;
+  max-width: 100%;
+  height: auto;
+  display: table;
+  margin: 0 auto;
 }
 
 
