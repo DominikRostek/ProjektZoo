@@ -237,7 +237,6 @@ height: auto;
 width: 100%;.
 margin: 0;
 display: grid;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 grid-template-columns: 1fr 1fr;
 justify-content: center;
 gap: 10px;
@@ -245,11 +244,11 @@ padding: 10px;
 box-sizing: border-box;
 }
 
-.image-event1 img{
+.section-event img{
 width: 35vw;
 border-radius: 5%;
 }
-.image-event img{
+.section-event1 img{
 width: 35vw;
 border-radius: 5%;
 }
@@ -1014,9 +1013,9 @@ footer img{
   float:left;
   width: 200px;
 }
-footer text {
+.text-footer {
   color: white;
-  margin-top: 42%;
+  margin-top: 35%;
   margin-left: 40%;
 }
 
