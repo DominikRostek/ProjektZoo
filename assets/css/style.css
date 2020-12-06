@@ -1,6 +1,6 @@
 
 html {
-  width:auto;
+  width:100%;
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +18,7 @@ position: -webkit-sticky; /* Safari */
 position: sticky;
 top: 0;
 bottom: 0;
-z-index: 3;
+z-index: 7;
 overflow: hidden;
 }
 
@@ -111,6 +111,7 @@ color: #467237;
 /* -------------------------------Top section------------------------ */
 
 .grid-top{
+  width: 100%;
   height: auto;
   margin: 0;
   background-color:#326979; 
@@ -234,7 +235,7 @@ background-color: #db4743;
 .grid2{
 background-color: #94bd85;
 height: auto;
-width: 100%;.
+width: 100%;
 margin: 0;
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -791,56 +792,59 @@ color: #CC231E;
 
 
 .grid1{
-height: auto;
-margin: 0;
-background-color:#ffffff; 
-display: grid;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-grid-template-columns: 1fr 1fr;
-justify-content: center;
-gap: 10px;
-padding: 10px;
-box-sizing: border-box; 
-}
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color:#ffffff; 
+  display: grid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box; 
+  }
 
 .section-giraffe{
-width: 30vw;
-text-align: center;
-margin-top: 0%;
-margin-left:15% ;
-grid-column-start: 2;
-grid-column-end: 3;
-grid-row-start: 1;
-grid-row-end: 2;
-}
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  }
+  .image-giraffe img{
+    width: 35vw;
+    }
 
 #text-covid{
-width: 100%;
-text-align: left;
-margin-left:15% ;
-margin-top: 13%;
-grid-row-start: 1;
-grid-row-end: 2;
-grid-column-start: 1;
-grid-column-end: 2;
-}
+  width: 100%;
+  text-align: left;
+  margin-left:15% ;
+  margin-top: 13%;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  }
 .text h2{
-color:  #CC231E;
-}
+  color:  #CC231E;
+  }
 
 .text p{
-color:  #CC231E;
-}
+  color:  #CC231E;
+  }
 
 
 .corner-button1 {
-background: transparent;
-border: 0.2rem solid currentColor;
-padding: 0.5rem 1rem;
-font-size: 1.1rem;
-position: relative;
-color: #CC231E;
-}
+  background: transparent;
+  border: 0.2rem solid currentColor;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  color: #CC231E;
+  }
 
 
 .corner-button1 p, h2 {
@@ -886,7 +890,7 @@ top: 50%;
 .section-giraffe{
     height: 72%;
     margin-top: 2%;
-    margin-left: 23%;
+    margin-left: 7%;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -959,7 +963,7 @@ margin-top: -70%;
 .section-giraffe{
 height: 45%;
   margin-top: 7%;
-  margin-left: 20%;
+  margin-left: 10%;
   grid-row-start: 2;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -1004,45 +1008,52 @@ height: 45%;
 
 /* ------------------------------ Footer-------------------- */
 
-footer {
+footer .footer-all {
+  width:100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
   background-color: #3B5B3B;
-  height: 20vh;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
 }
+
+footer .box{
+  flex-basis: 18%;
+  color: white;
+}
+.logo-footer img{
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
 footer a {
-  margin-top: 10%;
   color: white;
   text-decoration: none;
   text-decoration: underline;
 }
-footer p {
-  margin-top: 10%;
-}
-footer img{
-  margin-left: 10%;
+
+.text-footer{
+  font-size: 0.8rem;
   margin-top: 5%;
-  float:left;
-  width: 200px;
-}
-.text-footer {
-  color: white;
-  margin-top: 35%;
-  margin-left: 40%;
 }
 
-#social img{
-  width: 15%;
-  margin-left:10px;
+@media only screen and (max-width:750px){
+  footer .footer-all {
+ font-size: 0.7rem;
+  }
+  footer .box{
+    flex-basis: 28%;
+    margin: 1%;
+    color: white;
+  }
+  .icon img{
+    width: 15%;
+  }
+
+  .text-footer{
+    font-size: 0.5rem;
+    margin-top: 13%;
+  }
 }
-/* @media only screen and (max-width:950px){
-footer {
-  height: 50vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-}
-} */
