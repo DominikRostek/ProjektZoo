@@ -476,31 +476,32 @@ display: inline-block;
 
 .famouscontainer {
   border: 5px solid #db4743;
-  display: grid;
-  margin: 2%;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+
   
-  /*
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-  "1 2"
-  "3 4";
+  "famous1 famousimage2"
+  "famousimage4 famous3";
+
   justify-content: center;
   gap: 10px;
   padding: 10px;
   box-sizing: border-box;
-  */
+
 }
 
-/*
-.famous1 { grid-area: 1;}
-.famousimage2 { grid-area: 2;}
-.famous3 { grid-area: 3;}
-.famousimage4 { grid-area: 4;}
-*/
+.famous1 { grid-area: famous1; }
+.famousimage2 { grid-area: famousimage2; }
+.famous3 { grid-area: famous3; }
+.famousimage4 { grid-area: famousimage4; }
+
+
+
 
 #christmasqueen {
 font-size:30px;
@@ -512,43 +513,47 @@ font-size:20px;
 }
 
 .famous1 {
-  float: left;
-  display: inline-block;
-  margin: 2%;
+  width: 70%;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 15% ;
+
 
 }
 
 .famousimage2 {
-  max-width: 100%;
-  border-radius: 2%;
-  padding-right: 1vw;
-  float: right;
-  display: inline-block;
-  margin: 2%; 
+  width: 73%;
+  height: auto;
+  border-radius: 5%;
+  margin-top: 5%;
+  margin-left: 15% ;
+  margin-right: 15% ;
+
 }
 
 .famous3 {
-  float: right;
-  display: inline-block;
-  margin: 2%;
-  padding-right: 50px;
+  width: 70%;
+  text-align: left;
+  margin-bottom: 5%;
+  margin-right: 15% ;
+
 
 }
 
 .famousimage4 {
-  max-width: 100%;
-  border-radius: 2%;
-  padding-left: 1vw;
-  float: left;
-  display: inline-block;
-  margin: 2%;
+  width: 70%;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  margin-right: 15% ;
+  margin-left: 15% ;
+
 
 }
 
 
 .famouscontainer p {
   color: #db4743;
-  font-size: 120%;
 }
 
 
@@ -563,8 +568,139 @@ font-size:20px;
    color: #db4743;
 }
 
+@media only screen and (max-width:950px){
 
-/* ---------------------Gallery---------------------------- */
+.famouscontainer {
+  background: transparent;
+  padding: 1.1rem 2rem;
+  font-size: 1rem;
+  position: relative;   
+}
+
+.famousimage2 {
+  width: 70%;
+  height: auto;
+  margin-left:15% ;
+  margin-right:15%;
+  margin-top: 4%;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.famous1 {
+  max-width: 90%;
+  text-align: left;
+  margin-top: 0%;
+  margin-left:8% ; 
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3; 
+}
+
+
+  .famousimage4 {
+    width:  70%;
+    height: auto;
+    margin-left:15% ;
+    margin-right:15%;
+    margin-top: 5%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .famous3{
+    max-width: 90%;
+    text-align: left;
+    margin-top: 2%;
+    margin-left:8% ; 
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+  }
+  
+  .famousimage2 img {
+    width: 60vw;
+  }
+
+  .famousimage4 img {
+    width: 60vw;
+  }
+}
+}
+
+@media only screen and (max-width:450px){
+
+
+  .famouscontainer {
+    background: transparent;
+    padding: 1.1rem 2rem;
+    font-size: 1rem;
+    position: relative;   
+  }
+  
+  .famousimage2 {
+    width: 100%;
+    height: auto;
+    margin-left:15% ;
+    margin-right:15%;
+    margin-top: 4%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .famous1 {
+    max-width: 100%;
+    text-align: left;
+    margin-top: 0%;
+    margin-left:8% ; 
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+  }
+  
+  
+    .famousimage4 {
+      width:  100%;
+      height: auto;
+      margin-left:15% ;
+      margin-right:15%;
+      margin-top: 5%;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    
+    .famous3{
+      max-width: 100%;
+      text-align: left;
+      margin-top: 2%;
+      margin-left:8% ; 
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 3; 
+    }
+    
+    .famousimage2 img {
+      width: 80vw;
+    }
+  
+    .famousimage4 img {
+      width: 80vw;
+    }
+  }
+  }
+  /* ---------------------Gallery---------------------------- */
 .all-gallery{
    background-color: #db4743 ;
 }
